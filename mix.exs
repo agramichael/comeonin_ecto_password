@@ -52,7 +52,7 @@ defmodule ComeoninEctoPassword.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:ecto, "~> 3.0 or ~> 2.0"},
+      {:ecto, "~> 3.3"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:pbkdf2_elixir, "~> 1.0", optional: true},
       {:bcrypt_elixir, "~> 2.0", optional: true},
